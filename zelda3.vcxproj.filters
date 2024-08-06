@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Zelda">
+      <UniqueIdentifier>{d6299dde-0eca-4199-8851-ead8818843b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Snes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="snes\apu.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\cart.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\cpu.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\dma.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\dsp.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\input.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\ppu.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\snes.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\snes_other.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\spc.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="tracing.c">
+      <Filter>Snes</Filter>
+    </ClCompile>
+    <ClCompile Include="zelda_rtl.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="hud.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeon.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="nmi.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="player_oam.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="load_gfx.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="messaging.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="overworld.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_main.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="tagalong.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="overlord.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="poly.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="ancilla.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="ending.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="attract.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="select_file.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="spc_player.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="player.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="tile_detect.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="zelda_cpu_infra.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="config.c">
+      <Filter>Zelda</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="snes\apu.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\cart.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\cpu.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\dma.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\dsp.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\input.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\ppu.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\saveload.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\snes.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\spc.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="tracing.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="zelda_rtl.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="dungeon.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="nmi.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="load_gfx.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="overworld.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="tagalong.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="overlord.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="poly.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="ancilla.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="ending.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="select_file.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_detect.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="player_oam.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="messaging.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="attract.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="zelda_cpu_infra.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="spc_player.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_main.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\dsp_regs.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\snes_regs.h">
+      <Filter>Snes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
